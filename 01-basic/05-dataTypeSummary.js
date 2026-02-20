@@ -46,6 +46,7 @@ console.log(id);
 const bigNumber = 12323131n
 console.log(bigNumber);
 
+console.log(typeof bigNumber);
 
 
 const heros = ["Imam Zaman", "Hussain", "Ali"];
@@ -58,5 +59,10 @@ let myObj=
 }
 
 
-console.log(myObj);
+//console.log(myObj);
+const myFunction= function(){
+    console.log("Mubashir Hasan");
+    
+}
 
+console.log(typeof myFunction);
